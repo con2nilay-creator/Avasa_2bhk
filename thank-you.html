@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Thank You | Avasa — 2 BHK Residences, Kandivali East</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body{min-height:100vh;min-height:100svh;box-sizing:border-box;display:flex;align-items:center;justify-content:center;background:#161C23;padding:24px;font-family:Jost,system-ui,sans-serif}
+    .ty-card{width:100%;max-width:560px;box-sizing:border-box;background:#FBF8F2;border-top:2px solid #A86E5C;padding:clamp(40px,7vw,64px) clamp(26px,6vw,56px);text-align:center;box-shadow:0 40px 90px rgba(0,0,0,.4)}
+    .ty-logo{display:block;height:34px;width:auto;margin:0 auto clamp(28px,4vh,40px)}
+    .ty-lbl{margin:0;font:500 10.5px Jost,sans-serif;letter-spacing:.36em;text-transform:uppercase;color:#A86E5C}
+    .ty-title{margin:16px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;font-size:clamp(38px,6vw,58px);line-height:1.04;letter-spacing:-.02em;color:#242D38}
+    .ty-title em{font-style:italic;color:#A86E5C}
+    .ty-rule{display:block;width:46px;height:1px;background:#A86E5C;margin:24px auto}
+    .ty-subtitle{margin:0 auto 34px;max-width:40ch;font:300 15.5px/1.8 Jost,sans-serif;color:#575F6B;text-wrap:pretty}
+    .ty-btn{display:inline-block;border:1px solid #A86E5C;background:#A86E5C;color:#fff;font:400 11px Jost,sans-serif;letter-spacing:.2em;text-transform:uppercase;padding:17px 34px;transition:all .45s cubic-bezier(.22,1,.36,1)}
+    .ty-btn:hover{background:#8F5B4A;border-color:#8F5B4A;color:#fff}
+  </style>
+
+  <script defer>
+    function getAllParams() {
+      var vars = {};
+      const url = new URL(window.location.href);
+      for (let [key, value] of url.searchParams) {
+        vars[key] = value;
+      }
+      return vars;
+    }
+    var queryParams = getAllParams();
+  </script>
+
+  <!-- Start Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KZM5PCRG');
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZM5PCRG" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="ty-card">
+    <img src="assets/images/avasa-mark-ink.png" class="ty-logo" alt="AVASA">
+    <p class="ty-lbl">Enquiry received</p>
+    <h1 class="ty-title">Thank <em>you.</em></h1>
+    <span class="ty-rule"></span>
+    <p class="ty-subtitle">Thank you for your interest in Avasa, Kandivali East. One of our sales advisors will get in
+      touch with you shortly.</p>
+    <a href="index.html" class="ty-btn">Back to Home</a>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script>
+    $('a').one('click', function (e) {
+      if (e.currentTarget.className != "nav-link") {
+        e.preventDefault();
+        if (window.location.href.indexOf('?') != -1) {
+          this.href = this.href + "?" + window.location.href.slice(window.location.href.indexOf('?') + 1);
+        }
+        this.click();
+      }
+    });
+  </script>
+</body>
+
+</html>
