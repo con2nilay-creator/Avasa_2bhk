@@ -88,7 +88,7 @@ $(document).ready(function () {
         var settings = {
             async: true,
             crossDomain: true,
-            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/f088cd154d8244bea3a20780be0ad7e9",
+            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/e0d60ca4039c46dc9a8557d240f16bb8",
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -228,7 +228,7 @@ $(document).ready(function () {
         var settings = {
             async: true,
             crossDomain: true,
-            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/f088cd154d8244bea3a20780be0ad7e9",
+            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/e0d60ca4039c46dc9a8557d240f16bb8",
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -351,7 +351,7 @@ $(document).ready(function () {
         var settings = {
             async: true,
             crossDomain: true,
-            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/f088cd154d8244bea3a20780be0ad7e9",
+            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/e0d60ca4039c46dc9a8557d240f16bb8",
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -474,7 +474,7 @@ $(document).ready(function () {
         var settings = {
             async: true,
             crossDomain: true,
-            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/f088cd154d8244bea3a20780be0ad7e9",
+            url: "https://lmsapi.persquarefeet.in/submit_lead/3954c325352047cf90a8f93d19d1a60b/e0d60ca4039c46dc9a8557d240f16bb8",
             method: "POST",
             headers: {
                 "content-type": "application/json"
